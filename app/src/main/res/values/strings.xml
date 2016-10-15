@@ -50,7 +50,9 @@
     </string>
     <string name="changeLog_title_beta">변경사항 (베타)</string>
     <string name="changeLog_msg_beta">
-        1.0-beta1
+        1.0-beta2
+        \n- sdk 17→15로 변경
+        \n\n1.0-beta1
         \n- 초기 릴리즈</string>
 
     <string name="russian_alphabet">

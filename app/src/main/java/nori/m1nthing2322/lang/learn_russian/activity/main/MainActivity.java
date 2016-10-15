@@ -29,7 +29,7 @@ import nori.m1nthing2322.lang.learn_russian.tool.Preference;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int ver= 10001;
+    private int ver= 10002;
     String xml;
 
     @Override
