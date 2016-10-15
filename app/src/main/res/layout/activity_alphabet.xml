@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/russian_alphabet"
+            android:textColor="#1e1e1e"
+            android:textSize="20sp"
+            android:layout_marginRight="30sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/russian_alphabet_en"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/russian_alphabet_ko"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginRight="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/russian_alphabet_pn"
+            android:textSize="20sp"
+            android:gravity="end"/>
+    </LinearLayout>
+</ScrollView>

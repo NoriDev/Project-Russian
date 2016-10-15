@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nori.m1nthing2322.lang.learn_russian">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/learn_russian"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="nori.m1nthing2322.lang.learn_russian.activity.main.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nori.m1nthing2322.lang.learn_russian.activity.learn.Alphabet"
+            android:label="@string/alphabet_ko"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name="nori.m1nthing2322.lang.learn_russian.activity.learn.Keyboard"
+            android:label="@string/keyboard_ko"
+            android:theme="@style/Keyboard"/>
+    </application>
+
+</manifest>
