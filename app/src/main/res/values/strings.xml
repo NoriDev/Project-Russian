@@ -52,6 +52,8 @@
     <string name="changeLog_msg_beta">
         1.0-beta2
         \n- sdk 17→15로 변경
+        \n- sdk 25 지원
+        \n- 라이브러리 업데이트
         \n\n1.0-beta1
         \n- 초기 릴리즈</string>
 
